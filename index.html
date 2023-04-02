@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CSS - Velas Artesanais</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <!-- Inclui os arquivos CSS do Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Inclui os arquivos JavaScript do Bootstrap -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css" >
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md  navbar-dark fundo">
+        <a class="navbar-brand" href="index.html">
+            <img class="logo" src="images/logo.png" alt="imagem do logotipo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="produtos.html">Produtos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sobre.html">Sobre</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <h1 class="titulo">CSS - Velas Artesanais</h1>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <ul class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ul>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/image1.png"  alt="Slide 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/image2.png"  alt="Slide 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/image3.png"  alt="Slide 1">
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div></div>
+        <div class="center-div">
+            <p>
+                As velas aromáticas têm sido usadas por séculos como uma forma de melhorar a atmosfera em um ambiente. Além de
+                proporcionar uma luz suave e aconchegante, as velas aromáticas também emitem fragrâncias relaxantes que podem ajudar a
+                aliviar o estresse e a ansiedade. As velas aromáticas são feitas com cera de alta qualidade e óleos essenciais naturais,
+                que são cuidadosamente escolhidos para criar uma mistura de fragrâncias que podem trazer uma sensação de paz e
+                tranquilidade ao ambiente.
+            </p>
+        </div>
+    </div>
+
+    <footer class=" text-center text-lg-start">
+        <div class="container p-4">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Contato</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="sobre.html" class="text-dark">Sobre Nós</a>
+                        </li>
+                        <li>
+                            <a href="contato.html" class="text-dark">Fale Conosco</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="text-center p-3 fundo" >
+            © 2023 Gracielly Aragão
+        </div>
+    </footer>
+</body>
+</html>
